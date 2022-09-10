@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All test suite" parallel="classes">
+
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.demoqa.pageobject.brokenlinks"/>
+        <class name="com.demoqa.pageobject.buttons"/>
+      <class name="com.demoqa.pageobject.checkbox"/>
+        <class name="com.demoqa.pageobject.dynamicproperty"/>
+       <class name="com.demoqa.pageobject.links"/>
+       <class name="com.demoqa.pageobject.radiobutton"/>
+       <class name="com.demoqa.pageobject.upload"/>
+        <class name="com.demoqa.pageobject.Webtables"/>
+      
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->
